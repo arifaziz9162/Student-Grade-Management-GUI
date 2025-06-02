@@ -24,6 +24,7 @@ logger.addHandler(file_handler)
 
 
 class StudentNotFoundError(Exception):
+    """Custom exception class for student not found related errors."""
     pass
 
 
